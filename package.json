@@ -1,0 +1,30 @@
+{
+  "name": "map-app",
+  "version": "1.0.0",
+  "description": "map app using leaflet js lib.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "clear": "rm -rf dist/",
+    "start": "tsc && node dist/index.js",
+    "start-dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "map-app"
+  },
+  "keywords": [
+    "leaflet",
+    "map",
+    "typescript",
+    "playground",
+    "simple",
+    "project"
+  ],
+  "author": {
+	"name":"Mohame Mousa",
+	"email":"mohamedamousa00@gmail.com",
+	"url":"http://mohamedmousa.com/"
+},
+  "license": "MIT"
+}

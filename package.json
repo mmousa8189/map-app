@@ -22,9 +22,12 @@
     "project"
   ],
   "author": {
-	"name":"Mohame Mousa",
-	"email":"mohamedamousa00@gmail.com",
-	"url":"http://mohamedmousa.com/"
-},
-  "license": "MIT"
+    "name": "Mohame Mousa",
+    "email": "mohamedamousa00@gmail.com",
+    "url": "http://mohamedmousa.com/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
 }

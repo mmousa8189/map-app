@@ -8,7 +8,7 @@ module.exports = {
     main: path.resolve(__dirname, "./src/app.ts"),
   },
   output: {
-    filename: "app.bundle.js",
+    filename: "app.main.js",
     path: path.resolve(__dirname, "dist"),
     //clean: true,
   },

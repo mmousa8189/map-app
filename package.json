@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1",
-    "clear": "rm -rf dist/",
-    "start": "tsc && node dist/index.js",
-    "start-dev": "ts-node src/index.ts"
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,7 @@
     "typescript",
     "playground",
     "simple",
+    "webpack",
     "project"
   ],
   "author": {
@@ -28,6 +28,20 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.4.4"
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.4.0",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
